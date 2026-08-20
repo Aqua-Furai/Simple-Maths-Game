@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Math Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-container">
+    <h1>Math Quest</h1>
+    
+    <div class="stats-bar">
+        <div>Level: <span id="level">1</span></div>
+        <div>Score: <span id="score">0</span>/5</div>
+    </div>
+
+    <div class="equation" id="equation">0 + 0</div>
+    
+    <form id="gameForm">
+        <input type="number" id="userAnswer" placeholder="Your answer" required autofocus autocomplete="off">
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="message" id="message"></div>
+
+    <button class="reset-btn" id="resetBtn">Reset Save File</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
